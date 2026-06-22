@@ -28,7 +28,7 @@ const isProductContextFileExists = fs.existsSync(
   "utf8"
 );
 
-const productContextFile = isCartContextFileExists
+const productContextFile = isProductContextFileExists
   ? fs
       .readFileSync(
         path.resolve(__dirname, "../contexts/ProductContextProvider.jsx"),

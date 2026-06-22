@@ -8,7 +8,7 @@ Arkadaşın state ve props kullanarak belli bir aşamaya kadar getirdi. Proje da
 1. Projeyi ContextAPI kullanır hale getirmek
 2. Add to cart butonunu ve özelliğini çalışır hale getirmek
 
-## Konrol listesi
+## Kontrol listesi
 
 ### 1. `ProductContext` oluştur ve kullan:
 
@@ -24,7 +24,7 @@ Arkadaşın state ve props kullanarak belli bir aşamaya kadar getirdi. Proje da
 - `App.jsx`de `Products` componentine gönderdiğin propları ve ilgili kısımları sil.
 - `Products.jsx`de, `useContext` ve `ProductContext` kullanarak `products` verisini al ve kullan. Kullanılmayan props kodunu sil.
 
-### 2. `CardContext` oluştur ve kullan:
+### 2. `CartContext` oluştur ve kullan:
 
 - `src/contexts` içinde `CartContextProvider.jsx` dosyası oluştur.
   - `createContext` ile bir `CartContext` oluştur. Export etmeyi unutma.
@@ -94,7 +94,7 @@ Bu komut projeyi çalıştıracak ve bir link verecek. Bu linki browserda açın
 
 ### 1. Testleri Takip Edin
 
-- Testlerin çalıştığı trminali açık tutun ve test çıktılarını izleyin
+- Testlerin çalıştığı terminali açık tutun ve test çıktılarını izleyin
 - Başarılı testler ✅, başarısız testler ❌ ile gösterilir
 
 ### 2. Adım Adım İlerleyin
